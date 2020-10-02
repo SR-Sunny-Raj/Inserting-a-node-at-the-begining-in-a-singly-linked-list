@@ -25,7 +25,7 @@ int main()
 	struct node *ptr1 = malloc(sizeof(struct node));
 	ptr1 -> data = 20;
 	ptr1 -> link = NULL;
-	head -> link = ptr;
+	head -> link = ptr1;
 	struct node *ptr2 = malloc(sizeof(struct node));
 	ptr2 -> data = 30;
 	ptr2 -> link = NULL;
